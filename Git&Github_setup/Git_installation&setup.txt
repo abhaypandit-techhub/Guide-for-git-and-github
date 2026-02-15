@@ -1,0 +1,19 @@
+                  👽👽GIT INSTALLATION👽👽
+--open chrome search "git"
+* visit official website for git
+* Click install for window
+* click on this link  --Standalone Installer--
+                      Git for Windows/x64 Setup.
+
+                      👽👽GIT SETUP👽👽
+ -- ✅checliist Additional icon(add on desktop your choice)
+ -- use vs code as git default editor
+ -- choose main branch"override the default branch name for new repository"
+ -- git from the command line and also from 3rd party software [default no change]
+ -- se bundled openSSH(default no change)
+ -- use the openSSL library
+ -- checkout window-style , commit unix-style line endings [default no change]
+ -- use minTTY(the default terminal of msys2) [deafult no change]
+ -- fast-forward or merge [default no change]
+ -- Git credential manager [default no change]
+ -- Enable file system caching [default no change]
