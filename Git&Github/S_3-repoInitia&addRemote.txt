@@ -1,0 +1,46 @@
+            *** REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION ***
+
+ ** Repository initialisation [ Method - 1 ]
+
+** OPEN TERMINAL IN VS CODE TYPE TEXT ..
+(i) git clone " provide url for repository " [Don't put double quote only url then click enter]
+
+** Remote Additiona [ Method - 1 ]
+
+-- click on three dot choose ' remote '-- click on ' add remote '
+-- then provide URl for 'HTTPS' for repository then click enter
+-- then provide remote name ' origin ' [ "origin" general name choose as you wish]
+
+NOTES : wHY WE NEED REMOTE ADDITION ?
+-- for push our code in github [This is global repository]
+
+** Remote Additiona [ Method - 2 ]
+
+.. USING COMMAND IN TERMINAL
+
+-- git remote add 'remote name' ' put UrL Repository link'
+   [ click enter, don't put single quote mentioned put name space and url]
+
+NOTES :
+
+How to check remote ?
+-- git remote -v
+How ro remove remote ?
+-- git remote remove 'remote name' [only put name not mentioned Quote use]
+
+    
+
+** Repository initialisation [Method - 2 ]
+
+(i) Make a folder and open in vs code [if you have already a folder don't need new folder]
+.. open vs code terminal ..
+(ii) git init  [Then click enter,after this local repository initialise to vs code ]
+
+** Remote Additiona
+
+-- click on three dot choose ' remote '-- click on ' add remote '
+-- then provide URl for 'HTTPS' for repository then click enter
+-- then provide remote name ' origin ' [ "origin" general name choose as you wish]
+
+NOTES : If you put another repository link in remote then code push will go in that repository not in  intial local repository
+                 
