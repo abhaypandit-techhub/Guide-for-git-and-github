@@ -16,7 +16,7 @@ REASON : Tell to git about author " name + email " then after this git save the 
 
 -- open  terminal in vs code type
 (i) git config --global user.name " put user name here " --click enter
-(ii) git config --global user.name " put email of github "  --click enter
+(ii) git config --global user.email " put email of github "  --click enter
 
 --- only for  checking ( if email show  the terminal then perfect )
 (i) git config --global --list
