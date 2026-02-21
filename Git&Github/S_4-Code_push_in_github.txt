@@ -1,0 +1,31 @@
+                
+                        *** CODE PUSH UP ON GITHUB **
+
+NOTES : IF i understand you initialise repository in vs code and also you add remote URL and remote name then you able to push code.
+
+ METHOD - 1
+
+ -- First staged all those file which you want push on github
+ -- then add some message file
+ -- then click on "tick indication arrow" just above the commit wait few sec   
+ -- then click thee dot right side of click indication go in "push or pull" segment lower then click to "push" wait few sec
+
+    CONGRATULATION YOUR CODE SUCCESSFULLY PUSH ON GITHUB REPOSITORY
+
+Method - 2 
+...Using terminal command
+
+(i) git add. [click enter mean: all change in  source control file staged and ready for commit]
+(ii) git commit -m " put some message for commit "
+NOTES : -m mean adding some message in commit
+FINAL COMMAND
+(iii) git push  'put remote name' 'branch name' [click enter : Branch may common "main"
+this also shown in vs code which branch you have] 
+
+NOTES : USE THIS WHEN YOU WANT AVOID COMMAND "git add." then prefer 
+
+ (i)git commit -a -m "put some message for commit"
+ [click enter : -a mean all file in change want to staged and commit]
+
+        (ii) git push  'put remote name' 'branch name'
+  [click enter : Branch may common "main"this also shown in vs code which branch you have] 
