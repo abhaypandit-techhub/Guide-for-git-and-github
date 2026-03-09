@@ -15,7 +15,7 @@ NOTES : IF i understand you initialise repository in vs code and also you add re
 Method - 2 
 ...Using terminal command
 
-(i) git add. [click enter mean: all change in  source control file staged and ready for commit]
+(i) git add . [click enter mean: all change in  source control file staged and ready for commit]
 (ii) git commit -m " put some message for commit "
 NOTES : -m mean adding some message in commit
 FINAL COMMAND
