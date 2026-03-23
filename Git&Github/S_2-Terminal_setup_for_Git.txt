@@ -1,16 +1,14 @@
+*** CONNECT GITHUB TO VS CODE ***
 
-                    *** COONECT GITHUB TO VS CODE ***
+ -- Click profile logo then choose "sign in to sync settings"
+ -- Then "sign in with GitHub"
 
- -- click profile logo then choose " sign in to sync seting "
- -- then " sign in with github "
+** Terminal setup for Git
+REASON: Tell Git about the author's name and email. After this, Git will save the commit.
 
-** Terminal setup for git 
-REASON : Tell to git about author " name + email " then after this git save the commit 
+-- Open terminal in VS Code and type:
+(i) git config --global user.name "put your name here" --then press enter
+(ii) git config --global user.email "put your GitHub email here" --then press enter
 
--- open  terminal in vs code type
-(i) git config --global user.name " put user name here " --click enter
-(ii) git config --global user.email " put email of github "  --click enter
-
---- only for  checking ( if email show  the terminal then perfect )
+--- For checking only (if email shows in the terminal, then it's perfect):
 (i) git config --global --list
-     
