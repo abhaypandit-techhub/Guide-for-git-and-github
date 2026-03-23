@@ -1,31 +1,30 @@
-                
-                        *** CODE PUSH UP ON GITHUB **
+                        *** CODE PUSH UP ON GITHUB ***
 
-NOTES : IF i understand you initialise repository in vs code and also you add remote URL and remote name then you able to push code.
+NOTES: If I understand correctly, you initialize a repository in VS Code and also add the remote URL and remote name, then you'll be able to push code.
 
- METHOD - 1
+METHOD - 1
 
- -- First staged all those file which you want push on github
- -- then add some message file
- -- then click on "tick indication arrow" just above the commit wait few sec   
- -- then click thee dot right side of click indication go in "push or pull" segment lower then click to "push" wait few sec
+-- First, stage all those files which you want to push on GitHub
+-- Then, add a commit message
+-- Then, click on the "tick indication arrow" just above the commit, wait a few seconds
+-- Then, click the dot on the right side of the indication, go to the "push or pull" section, then click "push", wait a few seconds
 
-    CONGRATULATION YOUR CODE SUCCESSFULLY PUSH ON GITHUB REPOSITORY
+    CONGRATULATIONS! YOUR CODE SUCCESSFULLY PUSHED ON GITHUB REPOSITORY
 
-Method - 2 
+METHOD - 2
 ...Using terminal command
 
-(i) git add . [click enter mean: all change in  source control file staged and ready for commit]
-(ii) git commit -m " put some message for commit "
-NOTES : -m mean adding some message in commit
+(i) git add . [Click Enter - means: all changes in source control files are staged and ready for commit]
+(ii) git commit -m "put some message for commit"
+NOTES: -m means adding a message to the commit
+
 FINAL COMMAND
-(iii) git push  'put remote name' 'branch name' [click enter : Branch may common "main"
-this also shown in vs code which branch you have] 
+(iii) git push 'put remote name' 'branch name' [Click Enter - Branch may be common "main", this is also shown in VS Code which branch you have]
 
-NOTES : USE THIS WHEN YOU WANT AVOID COMMAND "git add." then prefer 
+NOTES: USE THIS WHEN YOU WANT TO AVOID THE COMMAND "git add ." - then prefer:
 
- (i)git commit -a -m "put some message for commit"
- [click enter : -a mean all file in change want to staged and commit]
+(i) git commit -a -m "put some message for commit"
+[Click Enter - -a means all files in change want to be staged and committed]
 
-        (ii) git push  'put remote name' 'branch name'
-  [click enter : Branch may common "main"this also shown in vs code which branch you have] 
+(ii) git push 'put remote name' 'branch name'
+[Click Enter - Branch may be common "main", this is also shown in VS Code which branch you have]
