@@ -6,7 +6,7 @@ METHOD - 1
 
 -- First, stage all those files which you want to push on GitHub
 -- Then, add a commit message
--- Then, click on the "tick indication arrow" just above the commit, wait a few seconds
+-- Then, click on the "tick indication arrow" just above the commit, wait a few seconds 0R Direct click on commit section add sum message then sinc to change again
 -- Then, click the dot on the right side of the indication, go to the "push or pull" section, then click "push", wait a few seconds
 
     CONGRATULATIONS! YOUR CODE SUCCESSFULLY PUSHED ON GITHUB REPOSITORY
