@@ -43,4 +43,12 @@ How ro remove remote ?
 -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
 
 NOTES : If you put another repository link in remote then code push will go in that repository not in  intial local repository
+
+***[M-3]Repository initialise *** Best way
+i) Got to Source control icon in vs code
+ii) Click 'publish on github' section after clicking they ask for repository name ............then ok
+
+
+
+
                  
