@@ -1,63 +1,66 @@
-1|                          **SETUP**
+1|                          🚀🚀 SETUP 🚀🚀
 2| 
-3| ** open chrome search " github " and make account
-4| -- make first new repository "        "
-5| ** git install and setup to it
+3| ** 🔎 Open Chrome, search "GitHub", and make an account
+4| -- Create your first new repository
+5| ** 🛠️ Install Git and set it up
 6| 
 7| 
 8| 
-9|             *** CONNECT GITHUB TO VS CODE ***
+9|             🌐🌟 CONNECT GITHUB TO VS CODE 🌟🌐
 10| 
-11|  -- click profile logo then choose " sign in to sync settings "
-12|  -- then " sign in with github "
+11|  -- Click the profile logo then choose "Sign in to sync settings"  🔐
+12|  -- Then choose "Sign in with GitHub"
 13| 
-14| ** Terminal setup for git 
-15| REASON : Tell git about author " name + email " then after this git save the commit 
+14| ** 💻 TERMINAL SETUP FOR GIT 💻
+15| REASON : Tell Git your author name and email so commits are saved correctly  ✍️ 
 16| 
-17| -- open  terminal in vs code type
+17| -- Open terminal in VS Code and type:
 18| (i) git config --global user.name " put user name here " --click enter
 19| (ii) git config --global user.email " put email of github "  --click enter
 20| 
-21| --- only for  checking ( if email show  the terminal then perfect )
+21| --- only for checking (if the email shows in the terminal, then everything is set correctly) ✅
 22| (i) git config --global --list
+
+
+
 23|      
-24|      *** REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION ***
+24|      📁📌 REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION 📌📁
 25| 
 26|  ** Repository initialisation [ Method - 1 ]
 27| 
 28| ** OPEN TERMINAL IN VS CODE TYPE TEXT ..
-29| (i) git clone " provide url for repository " [Don't put double quote only url then click enter]
+29| (i) git clone <repository-url>  [Do not include quotes; paste the URL and press enter]
 30| 
-31| ** Remote Addition [ Method - 1 ]
+31| ** 🔗 Remote Addition [ Method - 1 ]
 32| 
 33| -- click on three dot choose ' remote '-- click on ' add remote '
 34| -- then provide URL for 'HTTPS' for repository then click enter
 35| -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
 36| 
-37| NOTES : WHY WE NEED REMOTE ADDITION ?
+37| 📌 NOTES: WHY WE NEED REMOTE ADDITION ?
 38| -- for push our code in github [This is global repository]
 39| 
-40| ** Remote Addition [ Method - 2 ]
+40| ** 🔧 Remote Addition [ Method - 2 ]
 41| 
 42| .. USING COMMAND IN TERMINAL
 43| 
-44| -- git remote add 'remote name' ' put URL Repository link'
-45|    [ click enter, don't put single quote mentioned put name space and url]
+44| -- git remote add <remote-name> <repository-url>
+45|    [press enter; do not include quotes; use a space between the name and URL]
 46| 
 47| NOTES :
 48| 
 49| How to check remote ?
 50| -- git remote -v
 51| How to remove remote ?
-52| -- git remote remove 'remote name' [only put name not mentioned Quote use]
+52| -- git remote remove <remote-name>  ❌ [only put the remote name; do not include quotes]
 53| 
-54|     
 55| 
 56| ** Repository initialisation [Method - 2 ]
+
 57| 
 58| (i) Make a folder and open in vs code [if you have already a folder don't need new folder]
 59| .. open vs code terminal ..
-60| (ii) git init  [Then click enter,after this local repository initialise to vs code ]
+60| (ii) git init  [then press enter; this initializes the local repository in VS Code]  📁
 61| 
 62| ** Remote Addition
 63| 
@@ -65,35 +68,37 @@
 65| -- then provide URL for 'HTTPS' for repository then click enter
 66| -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
 67| 
-68| NOTES : If you put another repository link in remote then code push will go in that repository not in initial local repository
+68| 📌 NOTES : If you add a different repository URL to the remote, then your push will go to that repository, not the initial local one.
+
+
+
 69|                  
-70|               *** CODE PUSH UP ON GITHUB ***
+70|               🚀🚀🚀 CODE PUSH UP ON GITHUB 🚀🚀🚀
 71| 
-72| NOTES : If I understand you initialise repository in vs code and also you add remote URL and remote name then you able to push code.
+72| 📌 NOTES: If you initialize a repository in VS Code and also add the remote URL and remote name, then you'll be able to push code.
 73| 
-74|  METHOD - 1
-75| 
-76|  -- First staged all those file which you want push on github
-77|  -- then add a commit message
-78|  -- then click on "tick indication arrow" just above the commit wait few sec   
-79|  -- then click three dot right side of click indication go in "push or pull" segment lower then click to "push" wait few sec
-80| 
+*** METHOD - 1 ***
+
+  -- ✅ Stage all files you want to push on GitHub
+  -- 📝 Add a commit message
+  -- 🔹 Click the "tick indication arrow" just above the commit, then wait a few seconds
+  -- ▶️ Click the three dots on the right side, choose "Push or Pull", then click "Push" and wait a few seconds
+
 81|     CONGRATULATIONS YOUR CODE SUCCESSFULLY PUSH ON GITHUB REPOSITORY
 82| 
-83| Method - 2 
-84| ...Using terminal command
+*** METHOD - 2 ***
+...Using terminal command
 85| 
-86| (i) git add . [click enter mean: all change in  source control file staged and ready for commit]
-87| (ii) git commit -m " put some message for commit "
+86| (i) git add .  ✅ [click enter - stages all changes]
+87| (ii) git commit -m "put some message for commit"  📝
 88| NOTES : -m mean adding some message in commit
 89| FINAL COMMAND
-90| (iii) git push  'put remote name' 'branch name' [click enter : Branch may common "main"
-91| this also shown in vs code which branch you have] 
+(iii) git push <remote-name> <branch-name>  ▶️ [click enter - branch is usually "main" and VS Code shows your current branch]
 92| 
-93| NOTES : USE THIS WHEN YOU WANT AVOID COMMAND "git add" then prefer 
+93| NOTES : USE THIS WHEN YOU WANT TO AVOID A SEPARATE "git add ." COMMAND
 94| 
-95|  (i)git commit -a -m "put some message for commit"
-96|  [click enter : -a mean all file in change want to staged and commit]
+95|  (i) git commit -a -m "put some message for commit"
+96|  [click enter - -a stages all changed files and commits them]
 97| 
-98|         (ii) git push  'put remote name' 'branch name'
-99|   [click enter : Branch may common "main". This also shown in vs code which branch you have]
+98|         (ii) git push <remote-name> <branch-name>
+99|   [click enter - branch is usually "main" and VS Code shows your current branch]
