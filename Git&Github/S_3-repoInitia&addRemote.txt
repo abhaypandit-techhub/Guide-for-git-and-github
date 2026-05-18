@@ -5,48 +5,48 @@
 ** OPEN TERMINAL IN VS CODE TYPE TEXT ..
 (i) git clone " provide url for repository " [Don't put double quote only url then click enter]
 
-** Remote Additiona [ Method - 1 ]
+** Remote Addition [ Method - 1 ]
 
 -- click on three dot choose ' remote '-- click on ' add remote '
--- then provide URl for 'HTTPS' for repository then click enter
+-- then provide URL for 'HTTPS' for repository then click enter
 -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
 
-NOTES : wHY WE NEED REMOTE ADDITION ?
+NOTES : WHY WE NEED REMOTE ADDITION ?
 -- for push our code in github [This is global repository]
 
-** Remote Additiona [ Method - 2 ]
+** Remote Addition [ Method - 2 ]
 
 .. USING COMMAND IN TERMINAL
 
--- git remote add 'remote name' ' put UrL Repository link'
-   [ click enter, don't put single quote mentioned put name space and url]
+-- git remote add <remote-name> <repository-url>
+   [ press enter, don't include quotes; use spaces between the name and URL]
 
 NOTES :
 
 How to check remote ?
 -- git remote -v
-How ro remove remote ?
--- git remote remove 'remote name' [only put name not mentioned Quote use]
+How to remove remote ?
+-- git remote remove <remote-name> [only put the remote name; do not include quotes]
 
     
 
 ** Repository initialisation [Method - 2 ]
 
-(i) Make a folder and open in vs code [if you have already a folder don't need new folder]
-.. open vs code terminal ..
-(ii) git init  [Then click enter,after this local repository initialise to vs code ]
+(i) Make a folder and open it in VS Code [if you already have a folder, you do not need a new one]
+.. open VS Code terminal ..
+(ii) git init  [Then press enter; after this the local repository is initialized]
 
-** Remote Additiona
+** Remote Addition
 
 -- click on three dot choose ' remote '-- click on ' add remote '
 -- then provide URl for 'HTTPS' for repository then click enter
 -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
 
-NOTES : If you put another repository link in remote then code push will go in that repository not in  intial local repository
+NOTES : If you put another repository link in the remote, then code push will go to that repository, not the initial local repository
 
-***[M-3]Repository initialise *** Best way
-i) Got to Source control icon in vs code
-ii) Click 'publish on github' section after clicking they ask for repository name ............then ok
+***[M-3] Repository initialize *** Best way
+i) Go to Source Control icon in VS Code
+ii) Click 'Publish on GitHub'; after clicking, they ask for repository name, then click OK
 
 
 
