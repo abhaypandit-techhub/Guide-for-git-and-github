@@ -1,12 +1,11 @@
                   👽👽GIT INSTALLATION👽👽
---open chrome search "git"
+-- open chrome search "git"
 * visit official website for git
-* Click install for window
-* click on this link  --Standalone Installer--
-                      Git for Windows/x64 Setup.
+* Click install for window/mc/linux as system requirement
+  --- then click on top below 'click here to download the latest (2.54.0) x64 version of Git for Window'
 
                       👽👽GIT SETUP👽👽
- -- ✅checliist Additional icon(add on desktop your choice)
+ -- ✅checliist Additional icon(add on desktop your choice as per need)
  -- use vs code as git default editor
  -- choose main branch"override the default branch name for new repository"
  -- git from the command line and also from 3rd party software [default no change]
