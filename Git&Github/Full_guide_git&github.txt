@@ -83,7 +83,7 @@
 83| Method - 2 
 84| ...Using terminal command
 85| 
-86| (i) git add. [click enter mean: all change in  source control file staged and ready for commit]
+86| (i) git add . [click enter mean: all change in  source control file staged and ready for commit]
 87| (ii) git commit -m " put some message for commit "
 88| NOTES : -m mean adding some message in commit
 89| FINAL COMMAND
