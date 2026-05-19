@@ -100,7 +100,7 @@ How to remove remote ?
   -- 🔹 Click the "tick indication arrow" just above the commit, then wait a few seconds
   -- ▶️ Click the three dots on the right side, choose "Push or Pull", then click "Push" and wait a few seconds
 
-     CONGRATULATIONS YOUR CODE SUCCESSFULLY PUSH ON GITHUB REPOSITORY
+      CONGRATULATIONS! YOUR CODE HAS BEEN SUCCESSFULLY PUSHED TO GITHUB REPOSITORY
 
 *** METHOD - 2 ***
 ...Using terminal command
