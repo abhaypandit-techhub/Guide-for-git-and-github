@@ -5,6 +5,26 @@
 ** 🛠️ Install Git and set it up
 
 
+                   👽👽GIT INSTALLATION👽👽
+-- open chrome search "git"
+* visit official website for git
+* Click install for window/mc/linux as system requirement
+   --- then click on top below 'click here to download the latest (2.54.0) x64 version of Git for Window'
+
+                       👽👽GIT SETUP👽👽
+  -- ✅checliist Additional icon(add on desktop your choice as per need)
+  -- use vs code as git default editor
+  -- choose main branch"override the default branch name for new repository"
+  -- git from the command line and also from 3rd party software [default no change]
+  -- se bundled openSSH(default no change)
+  -- use the openSSL library
+  -- checkout window-style , commit unix-style line endings [default no change]
+  -- use minTTY(the default terminal of msys2) [deafult no change]
+  -- fast-forward or merge [default no change]
+  -- Git credential manager [default no change]
+  -- Enable file system caching [default no change]
+
+
                   🌐🌟 CONNECT GITHUB TO VS CODE 🌟🌐
 
   -- Click the profile logo then choose "Sign in to sync settings"  🔐
