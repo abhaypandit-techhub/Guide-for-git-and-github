@@ -51,6 +51,10 @@ REASON : Tell Git your author name and email so commits are saved correctly  ✍
 
 ** 🔗 Remote Addition [ Method - 1 ]
 
+📌 ⚠️ IMPORTANT NOTE: When using 'git clone', the remote is AUTOMATICALLY ADDED as 'origin'. 
+   You do NOT need to manually add the remote. Skip steps below if using git clone.
+   This section is only needed if you used 'git init' instead of 'git clone'.
+
 -- click on three dot choose ' remote '-- click on ' add remote '
 -- then provide URL for 'HTTPS' for repository then click enter
 -- then provide remote name ' origin ' [ "origin" general name choose as you wish]
