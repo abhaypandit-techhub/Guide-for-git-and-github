@@ -5,8 +5,7 @@
 ** 🛠️ Install Git and set it up
 
 
-
-            🌐🌟 CONNECT GITHUB TO VS CODE 🌟🌐
+                  🌐🌟 CONNECT GITHUB TO VS CODE 🌟🌐
 
   -- Click the profile logo then choose "Sign in to sync settings"  🔐
   -- Then choose "Sign in with GitHub"
@@ -23,8 +22,7 @@ REASON : Tell Git your author name and email so commits are saved correctly  ✍
 
 
 
-      
-      📁📌 REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION 📌📁
+         📁📌 REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION 📌📁
 
   ** Repository initialisation [ Method - 1 ]
 
@@ -71,8 +69,7 @@ How to remove remote ?
 
 
 
-                  
-               🚀🚀🚀 CODE PUSH UP ON GITHUB 🚀🚀🚀
+                    🚀🚀🚀 CODE PUSH UP ON GITHUB 🚀🚀🚀
 
 📌 NOTES: If you initialize a repository in VS Code and also add the remote URL and remote name, then you'll be able to push code.
 
