@@ -19,7 +19,7 @@
 19| (ii) git config --global user.email " put email of github "  --click enter
 20| 
 21| --- only for checking (if the email shows in the terminal, then everything is set correctly) ✅
-22| (i) git config --global --list
+22| (iii) git config --global --list
 
 
 
@@ -77,24 +77,24 @@
 71| 
 72| 📌 NOTES: If you initialize a repository in VS Code and also add the remote URL and remote name, then you'll be able to push code.
 73| 
-*** METHOD - 1 ***
-
-  -- ✅ Stage all files you want to push on GitHub
-  -- 📝 Add a commit message
-  -- 🔹 Click the "tick indication arrow" just above the commit, then wait a few seconds
-  -- ▶️ Click the three dots on the right side, choose "Push or Pull", then click "Push" and wait a few seconds
-
+74| *** METHOD - 1 ***
+75| 
+76|   -- ✅ Stage all files you want to push on GitHub
+77|   -- 📝 Add a commit message
+78|   -- 🔹 Click the "tick indication arrow" just above the commit, then wait a few seconds
+79|   -- ▶️ Click the three dots on the right side, choose "Push or Pull", then click "Push" and wait a few seconds
+80| 
 81|     CONGRATULATIONS YOUR CODE SUCCESSFULLY PUSH ON GITHUB REPOSITORY
 82| 
-*** METHOD - 2 ***
-...Using terminal command
+83| *** METHOD - 2 ***
+84| ...Using terminal command
 85| 
 86| (i) git add .  ✅ [click enter - stages all changes]
 87| (ii) git commit -m "put some message for commit"  📝
 88| NOTES : -m mean adding some message in commit
 89| FINAL COMMAND
-(iii) git push <remote-name> <branch-name>  ▶️ [click enter - branch is usually "main" and VS Code shows your current branch]
-92| 
+90| (iii) git push <remote-name> <branch-name>  ▶️ [click enter - branch is usually "main" and VS Code shows your current branch]
+91| 
 93| NOTES : USE THIS WHEN YOU WANT TO AVOID A SEPARATE "git add ." COMMAND
 94| 
 95|  (i) git commit -a -m "put some message for commit"
