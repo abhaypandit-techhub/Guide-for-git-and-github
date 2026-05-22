@@ -36,8 +36,8 @@
   (iii) $ git push -u <remote-name> <branch-name>
         ▶️ [Use this command when first time push code in remote]
 
-        $ git push <remote-name> <branch-name>
-        ▶️ (second time as usual, and not necessary for -u)
+        $ git push 
+        ▶️ (second time as usual)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⚠️  NOTES: USE THIS WHEN YOU WANT TO AVOID SEPARATE
