@@ -1,14 +1,43 @@
-***** CONNECT GITHUB TO VS CODE *****
+╔══════════════════════════════════════════════════════════════════╗
+║              ***** CONNECT GITHUB TO VS CODE *****               ║
+╚══════════════════════════════════════════════════════════════════╝
 
- -- Click profile logo then choose "sign in to sync settings"
- -- Then " sign in with GitHub"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 STEPS TO CONNECT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-***** TERMINAL SETUP FOR GIT *****
-REASON: Tell Git about the author's name and email. After this, Git will save the commit.
+  👤 -- Click profile logo then choose
+        " sign in to sync settings "
 
--- Open terminal in VS Code and type:
-(i) git config --global user.name "put your name here" --then press enter
-(ii) git config --global user.email "put your GitHub email here" --then press enter
+  🐙 -- Then " sign in with GitHub "
 
---- For checking only (if email shows in the terminal, then it's perfect):
-(i) git config --global --list
+╔══════════════════════════════════════════════════════════════════╗
+║              ***** TERMINAL SETUP FOR GIT *****                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📌 REASON:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ➡️  Tell Git about the author's name and email.
+      After this, Git will save the commit.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💻 Open terminal in VS Code and type:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  (i)  $ git config --global user.name "put your name here"
+       ✅ -- then press enter
+
+  (ii) $ git config --global user.email "put your GitHub email here"
+       ✅ -- then press enter
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 For checking only:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  (if email shows in the terminal, then it's perfect ✅)
+
+  (i)  $ git config --global --list
+
+╚══════════════════════════════════════════════════════════════════╝
