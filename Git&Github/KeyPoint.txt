@@ -1,5 +1,0 @@
-stage : Prepare a file for committing
-
-Commit : Save the staged files permanently in the local repository (on your computer).
-
-Repository : Where committed changes are store in permanently
