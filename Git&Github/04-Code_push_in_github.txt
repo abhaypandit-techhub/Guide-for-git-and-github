@@ -17,6 +17,8 @@
 ...Using terminal command
 
 (i) git add .  ✅ [Click Enter - stages all changes]
+notes : for specific file want commit git add fileName
+
 (ii) git commit -m "put some message for commit"  📝
 📌 NOTES: -m means add a message to the commit
 
