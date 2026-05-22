@@ -1,4 +1,4 @@
-            *** REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION ***
+*** REPOSITORY INITIALISE IN VS CODE AND REMOTE ADDITION ***
 
 
 ** Repository initialisation [Method - 1 : Through a command line  ]
@@ -37,15 +37,16 @@ How to remove remote ?
 ** OPEN TERMINAL IN VS CODE TYPE TEXT ..
 (i) git clone " provide url for repository " [Don't put double quote only url then click enter]
 
-** Remote Addition
-
-NOTES : If you put another repository link in the remote, then code push will go to that repository, not the initial local repository
-
-***[M-3] Repository initialize *** Best way
-(i) Go to Source Control icon in VS Code
-(ii) Click 'Publish on GitHub'; after clicking, they ask for repository name, then click OK
+📌 ⚠️ IMPORTANT NOTE: When using 'git clone', the remote is AUTOMATICALLY ADDED as 'origin'. 
+   You do NOT need to manually add the remote. 
 
 
+*** [M-3] Repository initialize *** GUI (graphica user interface)
+
+(i) Open VS Code and click the Source Control icon on the left.
+(ii) Click the "Publish on GitHub" button.
+(iii) Enter the repository name, choose privacy settings, and confirm.
+(iv) VS Code will create the remote repo and add `origin` automatically.
 
 
                  
