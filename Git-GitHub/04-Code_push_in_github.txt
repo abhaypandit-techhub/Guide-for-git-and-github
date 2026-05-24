@@ -65,19 +65,9 @@
 
   ✅ Stage all files you want to push to GitHub
 
-  📝 Add a commit message
-
-  🔹 Click the "tick indication arrow" just above the commit,
-     then wait a few seconds
-
-                        -- OR --
-
-  🔹 Or directly click the commit section, add a message,
-     then sync the changes again
-
-  ▶️ Click the three dot on the right side of the indication,
-     choose "Push or Pull", then click "Push"
-     and wait a few seconds
+  📝 Add a commit message then click on sync to chnage after this your code is completly push on your remote repository
+   Commit → Local save ✅
+   Sync Changes → Pull + Push ✅✅
 
 ╚══════════════════════════════════════════════════════════════════╝
 
